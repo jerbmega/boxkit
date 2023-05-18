@@ -11,6 +11,9 @@ RUN apk update && \
     grep -v '^#' /extra-packages | xargs apk add
 RUN rm /extra-packages
 
+COPY bin /bin
+chmod +x /bin/wine # TODO don't hardcode this
+
 # Add antigen (will be used by dotfiles later)
 # There's no packages for this in Alpine but in this case it doesn't matter, 
 # it's just a .zsh file and the end result is what's important here
