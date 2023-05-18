@@ -1,2 +1,2 @@
 #!/bin/bash
-flatpak run org.winehq.Wine
+flatpak run org.winehq.Wine "$@"
