@@ -8,7 +8,8 @@ ncurses
 neofetch
 plocate
 python3
-yt-dlp
+py3-virtualenv
 zsh
 zsh-vcs
 zstd
+yt-dlp
