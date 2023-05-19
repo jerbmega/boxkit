@@ -12,7 +12,7 @@ RUN apk update && \
 RUN rm /extra-packages
 
 COPY bin /bin
-chmod +x /bin/wine # TODO don't hardcode this
+RUN chmod +x /bin/wine # TODO don't hardcode this
 
 # Add antigen (will be used by dotfiles later)
 # There's no packages for this in Alpine but in this case it doesn't matter, 
