@@ -3,6 +3,7 @@ atuin-zsh-completion
 chezmoi
 dbus-x11
 ffmpeg
+flatpak-builder
 htop
 nano
 ncdu
