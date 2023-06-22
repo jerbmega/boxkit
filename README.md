@@ -1,8 +1,8 @@
 # My boxkit
+# **DEPRECATED**
+## No longer used or updated due to distrobox-assemble accomplishing this in a cleaner manner. The equivalent distrobox-assemble INI can be found [here](https://github.com/jerbmega/ublue/blob/live/usr/share/ublue-os/boxkit.ini).
 
 This is my personal Boxkit image. See the [upstream](https://github.com/ublue-os/boxkit) for more info.
-
-I do not run this daily yet, expect dragons as a result.
 
 ## How to use
 
